@@ -8,7 +8,7 @@ from reportlab.lib.units import inch
 
 from core.style import Style
 
-x = symbols('x')
+x = symbols('x') 
 math_dict = {
     'pi': pi, 'π': pi, 'e': exp(1), 'E': exp(1), 'exp': exp, 'sin': sin,
     'cos': cos, 'tan': tan, 'ln': log, 'log': log, 'sqrt': sqrt, 'oo': oo, '∞': oo, 'x': x
